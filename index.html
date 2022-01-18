@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="tarea.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Administrador de tareas</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <input auto
+    <div id="contenedor">
+      <div id="buscarTarea">
+        <h2>Contador: &nbsp</h2>
+        <h2 id="contador">0</h2>
+        <input type="text" id="buscador" placeholder="Buscar Tarea" />
+        <input type="submit" value="Limpiar" id="buscar" />
+        <div id="tareaEncontrada"></div>
+      </div>
+
+      <div id="addTarea">
+        <h2 id="titulo">Añadir Tareas</h2>
+        <input
+          type="text"
+          id="nombreTarea"
+          placeholder="Introduce la tarea"
+          required
+        />
+        <input type="submit" value="Añadir" id="enviar" />
+      </div>
+
+      <div id="mistareas"></div>
+    </div>
+  </body>
+</html>
